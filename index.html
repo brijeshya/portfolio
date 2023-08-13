@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brijesh-Portfolio</title>
+    <link rel="stylesheet" href="phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        .left {
+            font-size: 1.45rem;
+            font-weight: 400;
+        }
+
+        /* main{
+            color: white;
+        } */
+        .firstsection {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 106px 0;
+
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            /* background-color: red; */
+            font-size: 2.5rem;
+            /* align-items: center;
+            justify-content: center; */
+
+        }
+
+        .rightsection img {
+            width: 85%;
+            /* margin: 33px; */
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        ul li a:hover {
+            color: rgb(170, 107, 228);
+            font-size: 1.08rem;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 50rem;
+        }
+
+        main hr {
+            border: 0px;
+            background-color: #9c97f1;
+            height: 2px;
+            margin: 40px 84px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.6rem;
+
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 90px;
+            width: 1px;
+            background-color: wheat;
+            margin: 0 100px;
+
+        }
+
+        .image-top {
+            left: -20px;
+            top: -48px;
+            position: relative;
+            width: 45px;
+        }
+
+        .two {
+            left: -20px;
+            top: -38px;
+            position: relative;
+            width: 45px;
+        }
+
+        .three {
+            left: -20px;
+            top: -50px;
+            position: relative;
+            width: 45px;
+        }
+
+        .four {
+            left: -20px;
+            top: -46px;
+            position: relative;
+            width: 50%px;
+            height: 45%;
+        }
+
+        .five {
+            left: -20px;
+            top: -50px;
+            position: relative;
+            width: 45px;
+        }
+
+        .vertical-title {
+            width: 140px;
+            position: relative;
+            top: 75px;
+        }
+
+        .vertical-desc {
+            font-size: 9px;
+            width: 150px;
+            color: gray;
+            position: relative;
+            top: 80px;
+        }
+
+        footer {
+            background-color: #0e021a;
+            /* height: 233px; */
+        }
+
+        .footer {
+            height: 103px;
+            display: flex;
+            padding: 92px 16px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer div {
+            width: 223px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+         .btn{
+            margin: 4px;
+            cursor: pointer;
+            padding: 5px;
+            font-size: 20px;
+            border-radius: 6px;
+            border: 2px solid;
+            color: wheat;
+            background-color: rgb(42, 215, 7);
+        }
+
+        .resume{
+            color: wheat;
+        }
+        .git{
+            color: white;
+        }
+        .footer h5{
+            color: rgb(72, 57, 14);
+            font-size: large;
+        }
+
+         h4 {
+            color: rgb(164, 164, 164);
+            font-size: larger;
+        }
+
+        .footer ul li a{
+            color: rgb(121, 115, 115);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Brijesh-Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi! My name is <span class="purple">Brijesh</span>
+                <div>and I am a passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+            </div>
+            <div class="button">
+                <button class="btn"><a class="resume" href="https://drive.google.com/file/d/1O3XAW0dkL8bJABJePLYrRnmfHarZqv_R/view?usp=drivesdk">Download-Resume</a></button>
+                <button class="btn"><a class="git" href="https://github.com/brijeshya">Visit-GitHub</a></button>
+            </div>
+            <div class="rightsection">
+                <img src="bg2.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Past Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top one" src="py.png" alt="">
+                    <div class="vertical-title">
+                        Python-Programming
+                    </div>
+                    <div class="vertical-desc">
+                        Python-Programming is very intresting programming language.It is easy to understanding for me.I have done my internship in 
+                        python from INTERNSHALA.With the help of python i am creating a game as a project that is "snake,sessior,stone" as wll as a simple shop calculator. 
+                        
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top two" src="ct.png" alt="">
+                    <div class="vertical-title">
+                        CATIA (3-D Design)
+                    </div>
+                    <div class="vertical-desc">
+                        CATIA is a 3D designing software . with the help of it we made various 3D object and also we assemble it and check it motion.I have done my training and internship on CATIA from Udemy. With the help of educator i have learn more about catia.
+                        My project is Safety Valve and Quick Return Motion Mechanism.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top three" src="html2.png" alt="">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                    <div class="vertical-desc">
+                        HTML is the Hyper Text Markup Language. I was learned HTML from YouTube and that give me a basic knowledge about html.
+                        It help in creating web-site. With the help of HTML i have made Form , Shop website , Amazon Clone.
+                        With the help of it we create or giving structure to our website
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top four" src="css2.png" alt="">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        CSS is the Cascading Style Sheets. I was learned CSS from YouTube "Code With Harry" and that give me a valuable knowledge about CSS.
+                        It help in creating web-site. With the help of CSS.I have made  Shop website , Amazon Clone as a project
+                        With the help of it we give style , color , and make a good looking site.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top five" src="js2.png" alt="">
+                    <div class="vertical-title">
+                        JAVA-SCRIPT
+                    </div>
+                    <div class="vertical-desc">
+                         I am Just beginner in js means JAVA-SCRIPT . It is very important part to build a web site. 
+                         It help to create logic . means you can click a button then it take an action. This is done by JAVA-SCRIPT.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top six" src="mark2.png" alt="">
+                    <div class="vertical-title">
+                        UNSCHOOL(marketing)
+                    </div>
+                    <div class="vertical-desc">
+                        Marketing is a strategy that uses in-person events to promote product. The goal of experience marketing is to create a really good consumer experience, increasing your customer value optimization.I am done my internship in marketing from
+                        UNSCHOOL. That is also a good experience.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h4>Brijesh developer portfolio</h4>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><h5>Get in touch</h5></li>
+                    <li><a href = "mailto:sachin31january@gmail.com">sachin31january@gmail.com</a></li>
+                    <li><a href = "mailto:brijesh955484@gmail.com">brijesh955484@gmail.com</a></li>
+                    <li><a href = "mailto:brijeshyadav955484@gmail.com">brijeshyadav955484@gmail.com</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><h5>Connect</h5></li>
+                    <li><a href="https://www.linkedin.com/in/brijesh-yadav-41ab18223/">Linkdin</a></li>
+                    <li><a href="https://instagram.com/jr_brijesh/">Instagram</a></li>
+                    <li><a href="https://www.threads.net/@jr_brijesh">Threads</a></li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><h5>Design</h5></li>
+                    <li><a href="https://brijeshya.github.io/Amazon-rec/">Amazon-Clone</a></li>
+                    <li><a href="https://brijeshya.github.io/musicly/">Spotify-clone</a></li>
+                    <li><a href="https://brijeshya.github.io/Restu/">General-store-site</a></li>
+                    <li><a href="https://brijeshya.github.io/harshfitness/">Harsh-Fitness</a></li>
+                   
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &copy brijeshportfolio.com || All The Best
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Python-Programmer', '3-D Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
